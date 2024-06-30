@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" 
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stayle/bootstrap.min.css">
+    <link rel="stylesheet" href="./stayle/index.css">
+</head>
+<body onclick="hidBill()">
+
+    <div class="col-12  bg-primary  animate__animated animate__fadeInDownBig" 
+        style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    "  onclick="hidBill()">
+      <button id="homepage" onclick="homePage()"><i class="fa-solid fa-arrow-left"></i> Home</button>
+
+    <p style="
+        text-align: center;
+        padding: 7px;
+        font-size: 25px;
+        color: white;">
+    Fatora Will Show Here
+</p>
+        <table class="table table-dark table-bordered" >
+          <thead>
+            <tr>
+              <th>-</th>
+              <th>item img</th>
+              <th>item name</th>
+              <th>item price</th>
+              <th>item qty</th>
+              <th>total</th>
+              <th>-</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p style="
+            border: 2px solid  black;
+            width: 12rem;
+            text-align: center;
+            color: white;
+            font-size: 26px;
+         ">
+    Total is : <span id="total"></span></p>
+      </div>
+      <div class="balance" onclick="event.stopPropagation()">
+        <button id="recharg" onclick="renderBill()">Pay The Bill</button>
+      </div>
+      <div class="bill  animate__animated animate__fadeInDownBig animate__delay-1s" onclick="event.stopPropagation()">
+        <input type="text" placeholder="Card holders Name">
+        <input type="number" placeholder="card Nunber">
+        <input type="date" placeholder="Expiry Month">
+        <input type="date" placeholder="Expiry your">
+        <input type="number" placeholder=" C VV">
+        <button id="bay">Pay Now</button>
+      </div>
+
+   <script src="./stayle/cart.js"></script> 
+</body>
+</html>

@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    border: 1px solid #a89898;
+}
+
+
+.bill {
+    width: 350px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    top: 16rem;
+    left: 31%;
+    z-index: 11111;
+}
+
+body {
+    background-color: black;
+}
+
+nav#navbar {}
+
+i.fa-solid.fa-bars.meen {
+    /* background-color: black; */
+    color: #201e1e;
+    padding: 37px;
+    font-size: 30px;
+}
+
+button.btn.btn-waring {
+    position: fixed;
+    top: 14px;
+    left: 67px;
+    /* right: 0; */
+    color: white;
+    z-index: 55;
+    border: 1px solid;
+}
+
+i.fa-solid.fa-circle-xmark.btn-danger {
+    background-color: red;
+    border-radius: 50%;
+    font-size: 29px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 141px;
+}
+
+.col-12.p-3.mb-3.productInCart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+}
+
+i.fa-solid.fa-xmark {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    border: 1px solid white;
+    z-index: 111;
+    color: black;
+    font-size: 27px;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    font-size: xx-large;
+    padding-left: 11px;
+    color: white;
+}
+
+input[type="search"] {
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    height: 42px;
+}
+
+.sarech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 47px;
+    position: sticky;
+    top: 32px;
+    /* background-color: #9d4b67; */
+    padding-bottom: 20px;
+    z-index: 555;
+}
+
+a.btn.btn-waring {
+    background-color: #ffca40;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 0rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+div#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    /* padding-left: 20px; */
+    /* position: relative; */
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: black;
+    font-size: 19px;
+    /* font-weight: 800; */
+}
+
+a {
+    text-decoration: none;
+    color: #f9f2f2;
+    font-size: 29px;
+}
+
+
+
+.catdef {
+    text-align: center;
+}
+
+.catactiv {
+    border-radius: 11px;
+    background-color:#ffca40;
+    text-align: center;
+    width: auto;
+    }
+
+li {list-style: none;padding-top: 20px;}
+div#cats {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    /* padding-top: 20px; */
+    height: 10vh;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3c4949;
+    z-index: 8;
+}
+
+div#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    height: 100vh;
+    gap: 2rem;
+}
+.ard{
+    align-items: center;
+    border: navajowhite;
+    cursor: pointer;
+}
+
+
+.card-body{
+    text-align: center;
+}
+div#cats {}
+
+div#catproducts {
+    display: flex;
+    gap: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+}
+#allcats{
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 2rem;
+width: 30%;
+}
+button {
+    background-color: white;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button#recharg {
+    width: 138px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button#bay {background-color: blue;margin-bottom: 17px;border-radius: 10px;}
+
+button#homepage {
+    width: 98px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 20px;
+}
+button#homepage :hover{
+    background-color: #ffca40;
+}
+#icon{
+color: red;
+font-size: 20px;
+padding-right: 10px;
+position: fixed;
+z-index: 1000;
+top: 0;
+right: 0;
+}
+.contediv{
+    position: fixed;
+    top: 0;
+    background-color: beige;
+    right: 0;
+    height: 100vh;
+    width: 371px;
+    z-index: 111;
+    border-left: 1px solid #bbb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+    color: white;
+    overflow-y: auto;
+}
+
+#sideCart{
+    position: fixed;
+    top: 0;
+    background-color: beige;
+    right: 0;
+    height: 100vh;
+    width: 371px;
+    z-index: 11;
+    border-left: 1px solid #bbb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+    color: white;
+    overflow-y: auto;
+}
+.card:hover{
+    background-color: #ffca40;
+    color: #000;
+}
+i#mune {
+    font-size: 27px;
+    padding: 15px;
+    display: none;
+}
+
+
+@media  (max-width:767px){
+    i#mune {
+        font-size: 27px;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        color: white;
+    }
+
+    div#cats {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 20px;
+        height: auto;
+        position: fixed;
+        align-items: center;
+        top: 0;
+        left: 0;
+        background-color: cadetblue;
+        z-index: 5;
+    }
+    nav {
+        display: none;
+    background-color: #bbb;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 5;
+    }
+    button.btn.btn-waring {
+        position: fixed;
+        top: 7px;
+        left: 8px;
+        z-index: 9;
+    }
+    .catdef {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .catactiv {
+         width: 100%;
+        }
+    
+        .card {
+            width: 51%;
+          
+      }
+}
+@media (min-width:767px)and(max-width:1023px){
+    .card {
+      width: 42%;
+    
+}
+}

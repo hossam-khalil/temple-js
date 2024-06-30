@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semi-final </title>
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stayle/bootstrap.min.css">
+    <link rel="stylesheet" href="./stayle/index.css">
+    
+</head>
+<body  onclick="hidesidecat()"> 
+  <i class="fa-solid fa-bars"id="mune" onclick="openNavber()"></i>
+  <nav id="navbar" class="col-sm-12 col-md-6 col-lg-3  container" >
+      <div class="col-sm-3 col-md-6  col-lg-12 "id="cats" onclick="event.stopPropagation()"></div>
+      </div>
+      <div  id="icon" onclick="showSideCart()">
+        <span id="cartNo">0</span>
+        <i class="fa-solid fa-cart-shopping" onclick="showSideCart()" ></i>
+      </div>
+      <button class="btn btn-waring" onclick="openCartPage()">ourDiv</button>
+  </nav>
+  <div class="sarech col-12 container " > 
+    <input type="search" placeholder="Enter your protect" onkeyup="filterData(event)">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+    <div class="col-lg-12  col-md-6 col-sm-3   container "id="cards" onclick="event.stopPropagation()">
+    </div>
+  </dvi>
+  <script src="./stayle/data.js"></script>
+  <script src="./stayle/index.js"></script>
+<script src="./stayle/bootstrap.min.js"></script>
+</body>
+</html>
